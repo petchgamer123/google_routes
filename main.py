@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from route.routes import Router
+from routes.google_routes import Router
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
